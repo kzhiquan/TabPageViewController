@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1727E4289C5767126F9918CD4ACC62052F2850A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1727E4289C5767126F9918CD4ACC62052F2850A0" : 9223372036854775807,
+    "CDD5B56E5A48944816891DC3B634BCA5E4BC9886" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E537E6F3-4F9D-44D3-80F2-BBD0DAEE768B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1727E4289C5767126F9918CD4ACC62052F2850A0" : "TabPageViewController\/",
+    "CDD5B56E5A48944816891DC3B634BCA5E4BC9886" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TabPageViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TabPageViewController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kzhiquan\/TabPageViewController",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1727E4289C5767126F9918CD4ACC62052F2850A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:zhiquan\/st-v2ex.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CDD5B56E5A48944816891DC3B634BCA5E4BC9886"
+    }
+  ]
+}

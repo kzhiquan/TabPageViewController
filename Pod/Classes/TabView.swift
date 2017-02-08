@@ -59,7 +59,7 @@ internal class TabView: UIView {
             toItem: self,
             attribute: .leading,
             multiplier: 1.0,
-            constant: 0.0)
+            constant: option.headerLeft ?? 0)
 
         let bottom = NSLayoutConstraint (item: self,
             attribute: .bottom,
@@ -75,7 +75,7 @@ internal class TabView: UIView {
             toItem: contentView,
             attribute: .trailing,
             multiplier: 1.0,
-            constant: 0.0)
+            constant: option.headerRight ?? 0)
 
         contentView.translatesAutoresizingMaskIntoConstraints = false
         self.addConstraints([top, left, bottom, right])
@@ -389,7 +389,8 @@ extension TabView: UICollectionViewDelegateFlowLayout {
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return 0.0
+        //return 0.0
+        return option.tabSpace ?? 0.0
     }
 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {

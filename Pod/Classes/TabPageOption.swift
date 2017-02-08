@@ -18,7 +18,12 @@ public struct TabPageOption {
     public var tabBarAlpha: CGFloat = 0.95
     public var tabHeight: CGFloat = 32.0
     public var tabMargin: CGFloat = 20.0
+
     public var tabWidth: CGFloat?
+    public var headerLeft: CGFloat?
+    public var headerRight: CGFloat?
+    public var tabSpace: CGFloat?
+    
     public var tabBackgroundColor: UIColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.95)
     public var pageBackgoundColor: UIColor = UIColor.white
      internal var tabBackgroundImage: UIImage {

@@ -123,16 +123,17 @@ extension TabPageViewController {
      */
 
     fileprivate func updateNavigationBar() {
-        if let navigationBar = navigationController?.navigationBar {
+        /*if let navigationBar = navigationController?.navigationBar {
             navigationBar.shadowImage = UIImage()
             navigationBar.setBackgroundImage(option.tabBackgroundImage, for: .default)
-        }
+        }*/
     }
 
     fileprivate func configuredTabView() -> TabView {
         let tabView = TabView(isInfinity: isInfinity, option: option)
         tabView.translatesAutoresizingMaskIntoConstraints = false
-
+        tabView.backgroundColor = option.tabBackgroundColor
+        
         let height = NSLayoutConstraint(item: tabView,
             attribute: .height,
             relatedBy: .equal,
